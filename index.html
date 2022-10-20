@@ -9,25 +9,304 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="./css/main.css">
-
+    
 </head>
-<body>
+<body class="black-color">
     
     <!-- Header start -->
-    <header class="site-header">
-        <div class="container">
-
-        </div>
-    </header>
-    <!-- Header finish -->
-    
-    <!-- Main start -->
-    <main class="site-main">
+    <div class="wrapper-all">
+        <header class="site-header">
+            <div class="container  mx-auto">
+                <div class="site-header__wrapper d-flex  align-items-center justify-content-between flex-md-row-reverse">
+                    <button class="btn button-dark " type="button">
+                    </button>
+                    <div class="d-flex align-items-center" >
+                        <a class="site-logo" href="./index.html">
+                            <img src="./images/site-logo.svg" 
+                            width="160"
+                            height="32"
+                            alt="site-logo">
+                        </a>
+                        <nav class="sitenav d-md-block ">
+                            <ul class="sitenav__list list-unstyled flex-md-row justify-content-end align-items-md-center mb-0 ">
+                                <li class="sitenav__item mb-md-0">
+                                    <a class="site__link fw-bold" href="#">
+                                        Home 
+                                    </a>
+                                </li>
+                                <li class="sitenav__item mb-md-0">
+                                    <a class="site__link" href="#">
+                                        About Us 
+                                    </a>
+                                </li>
+                                <li class="sitenav__item mb-md-0">
+                                    <a class="site__link" href="#">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li class="sitenav__item mb-md-0">
+                                    <a class="site__link" href="#">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- <button class="btn button-dark d-none d-md-block" type="button">
+                    </button> -->
+                    <button class="btn burger-js d-md-none" type="button">
+                    </button>
+                    
+                </div>
+                
+            </div>
+        </header>
+        <!-- Header finish -->
         <!-- Hero section start  -->
-        <section class="hero-section">
+        <section class="hero">
+            <div class="container mx-auto">
+                <div class="hero-title__wrapper w-100 mx-auto" >
+                    <h1 class="hero__title">
+                        Your digital business is in good hands with us!
+                    </h1>
+                </div>
+                <div class="hero-text__wrapper w-100 mx-auto">
+                    <p class="hero__text">
+                        Make your work easier with an integrated ecosystem that lets all departments work properly together.
+                    </p>
+                </div>
+                
+                <button class="hero__btn  btn mx-auto d-flex " type="button">
+                    Watch Video
+                </button>
+                <div class="mx-auto text-center" >
+                    <a class="hero__link text-decoration-none" href="#">
+                        Get Started
+                    </a>
+                </div>
+                
+                <img class="img-fluid mx-auto " src="./images/Macbook Pro.svg" 
+                width="977"
+                height="579"
+                alt="Macbook">
+            </div>
             
         </section>
         <!-- Hero section finish  -->
+    </div>
+    
+    <!-- Main start -->
+    <main class="site-main">
+        <section class="software">
+            <div class="container  mx-auto">
+                <div class="software-title__wrapper mx-auto">
+                    <h2 class="software__title">
+                        Software Solutions That Fit Your Needs
+                    </h2>
+                </div>
+                <p class="software__text">
+                    The features to boost
+                    your productivity
+                </p>
+                <ul class="software__list list-unstyled row justify-content-center">
+                    <li class="software__item col-12  col-md-4 ms-md-0">
+                        <img class="img-fluid" src="./images/corusel-first.svg" 
+                        alt="pasword">
+                        <h3 class="item-title">
+                            Task Management
+                        </h3>
+                        <div class="text-sofware__wrapper w-100">
+                            <p class="software__item-text" >
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                
+                            </p>     
+                        </div>
+                        <a class="item-link" href="#">View More</a>
+                    </li>
+                    <li class="software__item col-12 col-md-4 me-0 gx-4">
+                        <img class="img-fluid" src="./images/corusel-second.svg" 
+                        alt="pasword">
+                        <h3 class="item-title">
+                            Task Management
+                        </h3>
+                        <div class="text-sofware__wrapper w-100">
+                            <p class="software__item-text" >
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                
+                            </p>     
+                        </div>
+                        <a class="item-link" href="#">View More</a>
+                    </li>
+                    <li class="software__item col-12  col-md-4">
+                        <img class="img-fluid" src="./images/corusel-third.svg" 
+                        alt="pasword">
+                        <h3 class="item-title">
+                            Task Management
+                        </h3>
+                        <div class="text-sofware__wrapper w-100">
+                            <p class="software__item-text" >
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                
+                            </p>     
+                        </div>
+                        <a class="item-link" href="#">View More</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+        </section>
+        
+        <section class="easy">
+            <div class="container mx-auto">
+                <div class="easy__wrapper  d-lg-flex flex-lg-row-reverse">
+                    <img class="img-fluid mx-auto"  src="./images/easy-advance.svg" 
+                    alt="esay">
+                    <div class="easy__text-box mx-auto ">
+                        <h2 class="esy-title text-lg-start">
+                            Easy Advance Protection
+                        </h2>
+                        <p class="esy_text text-lg-start">
+                            Use marketing automation to identify hot leads and email your sales team telling them to follow up. Nurture and contact leads at the opportune time to maximize.
+                        </p>
+                        <div class="mx-auto text-center text-lg-start" >
+                            <a class="esy-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="mode">
+            <div class="container mx-auto">
+                <div class="mode__wrapper d-lg-flex " >
+                    <img class="img-fluid mx-auto" src="./images/mode-easy.svg" alt="Advance">
+                    <div class="mode__textbox mx-auto text-center">
+                        <div class="mode-title__wrapper ">
+                            <h2 class="mode__title mx-lg-auto" >
+                                Advance Protection Mode Easy 
+                            </h2>
+                        </div>
+                        <p class="mode__text mx-auto text-center">
+                            Use marketing automation to identify hot leads and email your sales team telling them to follow up. Nurture and contact leads at the opportune time to maximize.
+                        </p>
+                        <div class="mx-auto text-center text-lg-start" >
+                            <a class="esy-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        <section class="customer">
+            <div class="container mx-auto">
+                <h2 class="customer__title" >
+                    Customer testimonials
+                </h2>
+                <p class="customer__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <ul class="customer__list list-unstyled  mx-auto d-flex justify-content-evenly">
+                    <li class="customer__item">
+                        <blockquote class="cutomer__text-corusel">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+                        </blockquote>
+                        <div class="founders d-flex ">
+                            <div class="founders-name ms-3" >
+                                <span class="founder__name" >
+                                    Brooklyn Simmons
+                                </span>
+                                <span class="founders-country d-block">
+                                    Bank of America
+                                </span>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="customer__item">
+                        <blockquote class="cutomer__text-corusel">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+                        </blockquote>
+                        <div class="founders glass-boy d-flex ">
+                            <div class="founders-name  ms-3" >
+                                <span class="founder__name" >
+                                   Darrell Steward
+                                </span>
+                                <span class="founders-country d-block">
+                                    American Airlines Group
+                                </span>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="customer__item">
+                        <blockquote class="cutomer__text-corusel">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+                        </blockquote>
+                        <div class="founders hair-boy d-flex ">
+                            <div class="founders-name ms-3" >
+                                <span class="founder__name" >
+                                   Courtney Henry
+                                </span>
+                                <span class="founders-country d-block">
+                                   Johnson & Johnson
+                                </span>
+
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+                
+            </div>
+            
+        </section>
+        <section class="simple">
+            <div class="container">
+                <div class="mx-auto" >
+                    <h2 class="simple__title">
+                        Simple and flexible pricing
+                    </h2>
+                    <p class="simple__text">
+                        Start with Support and build your own custom solution or choose The Suite
+                    </p>
+                </div>
+                <ul class="simple__list">
+                    <li class="simple__item">
+                        <h3 class="simple__min-title">
+                            Basic plan
+                        </h3>
+                        <span class="cost">
+                          $19/mo
+                        </span>
+                        <span class="dollar">
+                            or $199 yearly
+                        </span>
+                        <p class="simple__min-text">
+                            Unlimited members
+                        </p>
+                        <p class="simple__min-text">
+                            Unlimited members
+                        </p>
+                        <p class="simple__min-text">
+                            Unlimited members
+                        </p>
+                        <p class="simple__min-text">
+                            Unlimited members
+                        </p>
+                        <p class="simple__min-text">
+                            Unlimited members
+                        </p>
+                    </li>
+                </ul>
+
+
+            </div>
+        </section>
         
     </main>
     <!-- Main finish  -->

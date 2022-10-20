@@ -1,0 +1,45 @@
+.mode{
+    padding-top: 45px;
+    padding-bottom: 83px;
+}
+
+.mode__textbox {
+    max-width: 624px;
+    width: 100%;
+}
+.mode-title__wrapper {
+    max-width: 554px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.mode__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #211F25;
+}
+.mode__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #3D3A41;
+    margin-bottom: 40px;
+}
+@include mobile-first(992px){
+    .mode{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+    .mode__title{
+        font-size: 48px;
+        text-align: start;
+    }
+    .mode-title__wrapper{
+        margin-top: 0;
+    }
+}

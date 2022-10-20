@@ -1,0 +1,132 @@
+.wrapper-all {
+    background-image: url("../images/bg-color.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.dark{ 
+    --main-nav-bg-color: #1a1823;
+    --main-btn-color:#FF94C7;
+    --main-bg-item-text-color:#d6d6d6;
+    --main-bg-item: #0000;
+    --main-bg-second-item:#0000;
+    --main-sfoware-color-text:#ffff;
+}
+
+.dark .wrapper-all{
+    background-image: url("../../images/bg-dark.svg");
+}
+.btn-click .burger-js {
+    background-image: url("../images/close-circle.svg");
+}
+.site-header {
+    position: relative;
+    padding-top: 56px;
+}
+.button-dark {
+    background-image: url("../images/_Button base.svg");
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 43px;
+}
+.sitenav {
+    display: none;
+    position: absolute;
+    top: 109px;
+    left: 0;
+    bottom: 0;
+    padding-top: 30px;
+    background-color: var(--main-nav-bg-color);
+    width: 100%;
+    height: 100vh;
+}
+.btn-click .sitenav {
+    display: block;
+}
+.none .wrapper-all {
+    background-image: none;
+    width: auto;
+    background-color: var(--main-nav-bg-color);
+}
+// .dark .wrapper-all {
+    //     background-color: var(--main-nav-bg-color);
+    // }
+    .sitenav__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sitenav__item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .site__link {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        color: var(--main-title-color);
+        text-decoration: none;
+    }
+    .site__link:hover {
+        color: #fff;
+        opacity: 0.5;
+        border-bottom: 1px solid #fff;
+    }
+    .burger-js {
+        background-image: url("../images/burger.svg");
+        background-repeat: no-repeat;
+        width: 26px;
+        height: 26px;
+    }
+    @include mobile-first(768px) {
+        .sitenav {
+            position: static;
+            width: auto;
+            height: auto;
+            background-color: transparent;
+            padding-top: 0;
+            margin-left: 89px;
+        }
+        
+        .sitenav__item {
+            margin-right: 40px;
+        }
+        .site__link {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 155%;
+        }
+    }
+    @include mobile-first(850px) {
+        .sitenav{
+            margin-left: 181px;
+        }
+    }
+    @include mobile-first(992px) {
+        .sitenav {
+            margin-left: 313px;
+        }
+    }
+    @include mobile-first(1120px) {
+        .sitenav {
+            margin-left: 441px;
+        }
+    }
+    @include mobile-first(1200px) {
+        .sitenav {
+            margin-left: 521px;
+        }
+    }
+    @include mobile-first(1300px) {
+        .sitenav {
+            margin-left: 623px;
+        }
+    }
+    @include mobile-first(1400px) {
+        .sitenav {
+            margin-left: 721px;
+        }
+    }
+    

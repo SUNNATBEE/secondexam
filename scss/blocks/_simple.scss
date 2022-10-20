@@ -1,0 +1,8 @@
+.simple__min-text:nth-child(2)::before{
+    background-image: url("../../images/Vector.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
+    width: 17px;
+    height: 12px;
+}

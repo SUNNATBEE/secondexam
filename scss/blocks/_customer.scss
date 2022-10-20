@@ -1,0 +1,99 @@
+
+.customer{
+    
+}
+.customer__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #211F25;
+}
+.customer__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #3D3A41;
+}
+.customer__item{
+    max-width: 320px;
+    width: 100%;
+    background-color: #f7f5ff;
+    padding: 30px ;
+    margin-right: 15px;
+}
+.customer__item::before{
+    background-image: url("../../images/Stars.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
+    width: 111px;
+    height: 19px;
+    margin-bottom: 30px;
+}
+.cutomer__text-corusel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #211F25;
+    margin-bottom: 31px;
+}
+.founders::before{
+    background-image: url("../../images/hair-boy.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
+    width: 54px;
+    height: 54px;
+}
+.glass-boy::before{
+    background-image: url("../../images/glass-boy.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
+    width: 54px;
+    height: 54px;
+}
+.hair-boy::before{
+    background-image: url("../../images/hair-boy.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
+    width: 54px;
+    height: 54px;
+}
+.founder__name{
+    font-family: 'Roboto', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #211F25;
+}
+.slick-next {
+    position: absolute;
+    top: 350px;
+    right: 80px;
+    border: none;
+    background-color: transparent;
+    background-image: url("../images/slick-arrow-right.svg");
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px; 
+} 
+.slick-prev{
+    position: absolute;
+    top: 350px;
+    right: 150px;
+    border: none;
+    background-color: transparent;
+    background-image: url("../images/slick-arrow-left.svg");
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px; 
+} 
